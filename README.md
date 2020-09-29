@@ -1,5 +1,5 @@
 # Full-Web-APP-Backend
-Facebook like web application backend
+Facebook-like web APP, which can realize login, posting blogs, commenting blogs, adding friends, searching posts, etc.
 
 * Developed by Node.js
 * testuser: jf58
