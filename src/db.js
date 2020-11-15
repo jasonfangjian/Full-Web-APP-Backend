@@ -3,8 +3,8 @@ var mongoose = require('mongoose')
 // replace this "localhost" value with the one from heroku/mlab
 var url ="mongodb://heroku_zd19j8q1:g8t2tl4d94ba1kf75eosudvc7t@ds053429.mlab.com:53429/heroku_zd19j8q1";
 
-if (process.env.MONGOLAB_URI) {
-	url = process.env.MONGOLAB_URI;
+if (process.env.MONGODB_URI) {
+	url = process.env.MONGODB_URI;
 }
 
 mongoose.connect(url, { useNewUrlParser: true ,useFindAndModify:false})
