@@ -14,7 +14,8 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 // const redis = require('redis').createClient('redis://h:p266456af498b2bbe25ff4045609f4d8fd445b6fe6a2b8564843530cf8fda731d@ec2-3-214-235-220.compute-1.amazonaws.com:11689')
 //const redis = require('redis').createClient('redis://h:p266456af498b2bbe25ff4045609f4d8fd445b6fe6a2b8564843530cf8fda731d@ec2-54-163-175-29.compute-1.amazonaws.com:24209')
 
-const redis = require('redis').createClient('redis://h:p266456af498b2bbe25ff4045609f4d8fd445b6fe6a2b8564843530cf8fda731d@ec2-52-23-58-196.compute-1.amazonaws.com:16009')
+// const redis = require('redis').createClient('redis://h:p266456af498b2bbe25ff4045609f4d8fd445b6fe6a2b8564843530cf8fda731d@ec2-52-23-58-196.compute-1.amazonaws.com:16009')
+const redis = require('redis').createClient('redis://h:p266456af498b2bbe25ff4045609f4d8fd445b6fe6a2b8564843530cf8fda731d@ec2-54-157-138-132.compute-1.amazonaws.com:19899')
 let originHostUrl = '';
 ////////
 
